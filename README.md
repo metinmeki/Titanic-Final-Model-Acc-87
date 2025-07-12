@@ -1,44 +1,63 @@
-Titanic Kaggle Survival Prediction
-This repository contains the code and resources for predicting survival on the Titanic. This project is based on the Kaggle competition "Titanic: Machine Learning from Disaster".
+🚢 Titanic Survival Prediction
+This repository contains the complete code and resources for building a machine learning model to predict passenger survival aboard the Titanic. It is based on the Kaggle competition: Titanic - Machine Learning from Disaster.
 
-Overview
-The sinking of the RMS Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, resulting in the deaths of a large portion of its passengers and crew. This project aims to predict which passengers survived the tragedy based on features such as age, sex, passenger class, and more.
+📖 Overview
+The RMS Titanic sank on April 15, 1912, after hitting an iceberg during her maiden voyage. This tragic event resulted in the deaths of over 1,500 passengers and crew members. In this project, we aim to predict which passengers survived based on various features such as age, sex, passenger class, and more.
 
-Dataset
-The dataset used for this project (train.csv and test.csv) is available on Kaggle and contains the following columns:
+📊 Dataset
+The dataset used for this project includes:
 
+train.csv – Training data containing passenger features and survival outcome.
+
+test.csv – Test data for model evaluation.
+
+Key Features:
 PassengerId: Unique identifier
-Survived: Survival (0 = No, 1 = Yes)
+
+Survived: Survival status (0 = No, 1 = Yes)
+
 Pclass: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+
 Name: Passenger's name
-Sex: Passenger's sex
-Age: Passenger's age in years
-SibSp: Number of siblings/spouses aboard the Titanic
-Parch: Number of parents/children aboard the Titanic
+
+Sex: Passenger's gender
+
+Age: Age in years
+
+SibSp: Number of siblings/spouses aboard
+
+Parch: Number of parents/children aboard
+
 Ticket: Ticket number
+
 Fare: Passenger fare
+
 Cabin: Cabin number
+
 Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
-Methodology
-Data Preprocessing: Handling missing values, converting categorical features, and feature engineering.
 
-Exploratory Data Analysis (EDA): Visualizing the data to understand relationships and distributions.
+🧠 Methodology
+Data Preprocessing
 
-Model Building: Training and evaluating different machine learning models to predict survival.
+Handling missing values
 
-Model Evaluation: Comparing model performance using metrics such as accuracy, precision, recall, and ROC curves.
+Encoding categorical variables
 
-Files
-Titanic_Survival_Prediction.ipynb: Jupyter notebook containing the complete analysis, from data cleaning to model evaluation.
-train.csv and test.csv: Dataset files used for training and testing models.
-Dependencies
-Python 3
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-Usage
-To run the notebook, ensure you have Python 3 installed along with the required libraries. Open the Jupyter notebook Titanic_Survival_Prediction.ipynb and execute each cell sequentially.
+Feature engineering
 
-Results
-The best-performing model achieved an accuracy of X% on the test set, demonstrating effective prediction capabilities.
+Exploratory Data Analysis (EDA)
 
-Conclusion
-This project provides insights into predicting survival on the Titanic using machine learning techniques. It serves as a foundational example for understanding data preprocessing, exploratory analysis, and model evaluation in a real-world dataset.
+Visualizing distributions
+
+Identifying correlations and patterns
+
+Model Building
+
+Training multiple machine learning models
+
+Hyperparameter tuning
+
+Model Evaluation
+
+Measuring performance using accuracy, precision, recall, and ROC-AUC
+
