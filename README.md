@@ -1,4 +1,4 @@
-🚢 Titanic Survival Prediction
+Titanic Survival Prediction
 This repository contains the complete code and resources for building a machine learning model to predict passenger survival aboard the Titanic. It is based on the Kaggle competition: Titanic - Machine Learning from Disaster.
 
 📖 Overview
