@@ -1,5 +1,5 @@
 Titanic Survival Prediction
-This repository contains the complete code and resources for building a machine learning model to predict passenger survival aboard the Titanic. It is based on the Kaggle competition: Titanic - Machine Learning from Disaster.
+This repository contains the complete code and resources for building a machine learning model to predict passenger survival aboard the Titanic. It is based on the Kaggle competition: Titanic - Machine Learning from Disaster
 
 Overview
 The RMS Titanic sank on April 15, 1912, after hitting an iceberg during her maiden voyage. This tragic event resulted in the deaths of over 1,500 passengers and crew members. In this project, we aim to predict which passengers survived based on various features such as age, sex, passenger class, and more
