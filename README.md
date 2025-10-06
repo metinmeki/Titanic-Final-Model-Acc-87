@@ -53,7 +53,6 @@ Identifying correlations and patterns
 
 Model Building
 
-Training multiple machine learning models
 
 Hyperparameter tuning
 
